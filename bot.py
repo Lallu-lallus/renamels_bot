@@ -1,7 +1,3 @@
-# RenameBot
-# This file is a part of mrvishal2k2 rename repo 
-# Dont kang !!!
-# © Mrvishal2k2
 
 import os, logging
 from root.config import Config
@@ -38,7 +34,7 @@ class Bot(Client):
             session_name="RENAMEBOT",
             api_id=Config.APP_ID,
             api_hash=Config.API_HASH,
-            bot_token=Config.TG_BOT_TOKEN,
+            bot_token=Config.BOT_TOKEN,
             plugins={"root": "root/plugins"},
             sleep_threshold=5
         )
